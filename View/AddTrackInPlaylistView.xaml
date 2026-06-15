@@ -1,0 +1,30 @@
+<Window x:Class="MusicPlayer.View.AddTrackInPlaylistView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:MusicPlayer.View"
+        mc:Ignorable="d"
+        Title="AddTrackInPlaylist" Height="200" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center">Трек, который вы хотите добавить в плейлист</TextBlock>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox x:Name="TextBox1" Width="200" Margin="0 10 5 0" Text="{Binding AddedTrackPath}"></TextBox>
+            <Button Click="OpenBrowseTrack" Height="25" Width="50">Путь</Button>
+        </StackPanel>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center">Плейлист, в который вы хотите добавить трек</TextBlock>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox x:Name="TextBox2" Width="200" Margin="0 10 5 0" Text="{Binding PlaylistPath}"></TextBox>
+            <Button Click="OpenBrowsePlaylist" Height="25" Width="50" >Путь</Button>
+        </StackPanel>
+        <Button Command="{Binding AddNewTrackInPlaylistCommand}" Grid.Row="4" Width="100" Height="30" Margin="0 15 0 0" VerticalAlignment="Center">Добавить</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "kjpRpqBZ5RQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gasta144\\RiderProjects\\MusicPlayer\\MusicPlayer\\MusicPlayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gasta144\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.142\\microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio\\3.0.0-preview.9\\naudio.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio.asio\\3.0.0-preview.9\\naudio.asio.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio.core\\3.0.0-preview.9\\naudio.core.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio.dmo\\3.0.0-preview.9\\naudio.dmo.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio.midi\\3.0.0-preview.9\\naudio.midi.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio.wasapi\\3.0.0-preview.9\\naudio.wasapi.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio.winforms\\3.0.0-preview.9\\naudio.winforms.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\naudio.winmm\\3.0.0-preview.9\\naudio.winmm.3.0.0-preview.9.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512",
+    "C:\\Users\\Gasta144\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+  ],
+  "logs": []
+}

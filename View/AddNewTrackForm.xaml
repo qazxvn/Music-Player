@@ -1,0 +1,30 @@
+<Window x:Class="MusicPlayer.View.AddNewTrackForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:MusicPlayer.View"
+        mc:Ignorable="d"
+        Title="AddNewTrackForm" Height="300" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" TextAlignment="Center" Margin="3">Название трека</TextBlock>
+        <TextBox Grid.Row="1" Height="20" Width="300" Text="{Binding NewTrackName, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"></TextBox>
+        <TextBlock Grid.Row="2" TextAlignment="Center" Margin="3">Исполнитель</TextBlock>
+        <TextBox Grid.Row="3" Height="20" Width="300" Text="{Binding NewAuthorName, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"></TextBox>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox x:Name="PathBox" Height="25" Width="200" Margin="0 10 10 0" IsReadOnly="True" Text="{Binding TrackPath}"></TextBox>
+            <Button Height="25" Width="80" Margin="0 10 10 0" Click="BrowseOpen_Click">Выбрать трек</Button>
+        </StackPanel>
+        <Button Grid.Row="5" Height="20" Width="100" Margin="10" Command="{Binding AddNewTrackCommand}">Добавить</Button>
+    </Grid>
+</Window>

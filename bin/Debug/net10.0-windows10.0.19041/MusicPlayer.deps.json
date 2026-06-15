@@ -1,0 +1,245 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MusicPlayer/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.142",
+          "NAudio": "3.0.0-preview.9",
+          "NAudio.Wasapi": "3.0.0-preview.9",
+          "NAudio.WinForms": "3.0.0-preview.9",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
+        },
+        "runtime": {
+          "MusicPlayer.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.38",
+            "fileVersion": "10.0.19041.55"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.48161"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.4.2": {
+        "runtime": {
+          "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.2.1"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.142.60144"
+          }
+        }
+      },
+      "NAudio/3.0.0-preview.9": {
+        "dependencies": {
+          "NAudio.Asio": "3.0.0-preview.9",
+          "NAudio.Core": "3.0.0-preview.9",
+          "NAudio.Dmo": "3.0.0-preview.9",
+          "NAudio.Midi": "3.0.0-preview.9",
+          "NAudio.Wasapi": "3.0.0-preview.9",
+          "NAudio.WinForms": "3.0.0-preview.9",
+          "NAudio.WinMM": "3.0.0-preview.9"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041/NAudio.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NAudio.Asio/3.0.0-preview.9": {
+        "dependencies": {
+          "NAudio.Core": "3.0.0-preview.9"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.Asio.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NAudio.Core/3.0.0-preview.9": {
+        "dependencies": {
+          "System.Numerics.Tensors": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NAudio.Dmo/3.0.0-preview.9": {
+        "dependencies": {
+          "NAudio.Core": "3.0.0-preview.9"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.Dmo.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NAudio.Midi/3.0.0-preview.9": {
+        "dependencies": {
+          "NAudio.Core": "3.0.0-preview.9"
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Midi.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/3.0.0-preview.9": {
+        "dependencies": {
+          "NAudio.Core": "3.0.0-preview.9",
+          "NAudio.Midi": "3.0.0-preview.9"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041/NAudio.Wasapi.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NAudio.WinForms/3.0.0-preview.9": {
+        "dependencies": {
+          "NAudio.WinMM": "3.0.0-preview.9"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.WinForms.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NAudio.WinMM/3.0.0-preview.9": {
+        "dependencies": {
+          "NAudio.Core": "3.0.0-preview.9",
+          "NAudio.Midi": "3.0.0-preview.9"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/NAudio.WinMM.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "System.Numerics.Tensors/9.0.0": {
+        "runtime": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MusicPlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Mvvm/8.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
+      "path": "communitytoolkit.mvvm/8.4.2",
+      "hashPath": "communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c47wA/8GHiQ9w+O6+mdqrZhZrxHogx2/fSZyRKL9tz0k+ypoTiwOx6fID0X3jr5LnCazJbCk7KiAcL0zVnNgNA==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.142",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512"
+    },
+    "NAudio/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0L6JsYZOnduX5O330Nb8J9MvV/aEfhod3AT11Hn/+nscdU/dY3XVlORKMqYBii9yVsQf6Am+eOp3ogUibO0F/w==",
+      "path": "naudio/3.0.0-preview.9",
+      "hashPath": "naudio.3.0.0-preview.9.nupkg.sha512"
+    },
+    "NAudio.Asio/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nn7vnws8aIq5fgc/kJawka5eUB1BS24AQZLW2TDelRl550l7twQxpY9tej7/AV9ze+LaCbT1sXQqseIif3DCYQ==",
+      "path": "naudio.asio/3.0.0-preview.9",
+      "hashPath": "naudio.asio.3.0.0-preview.9.nupkg.sha512"
+    },
+    "NAudio.Core/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E03A2Ynm7X0ScXQuZ3qXh5moRLppZKU5F9HblN/eqOFVOIfyjxHavfugAard1zRJzxBysnZv/SW16NqGXMv2Aw==",
+      "path": "naudio.core/3.0.0-preview.9",
+      "hashPath": "naudio.core.3.0.0-preview.9.nupkg.sha512"
+    },
+    "NAudio.Dmo/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CSmALYd2wrI+trb5VZM5eov1N6zMPg/eIYLDlQliayVsRL12AxAc+N6bFdh3MPjWSGzwjPAycIgXnnie9cWcpg==",
+      "path": "naudio.dmo/3.0.0-preview.9",
+      "hashPath": "naudio.dmo.3.0.0-preview.9.nupkg.sha512"
+    },
+    "NAudio.Midi/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uhr2Cr2fN7r2aFaIdoHWjgHssCuDY81XrF8dh7dFKJv27Sbq1gewUee96ItFqYeWtxJwMKQq+i24TYFfv5wy7Q==",
+      "path": "naudio.midi/3.0.0-preview.9",
+      "hashPath": "naudio.midi.3.0.0-preview.9.nupkg.sha512"
+    },
+    "NAudio.Wasapi/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KjLd4r1KtiaxZJZX1eiPXjeNGRPJ2xng84D+wwA4PBqOwX6uCVQ4+j0GKMu4UazgZW0oVjF3csPbHQtdEi81ng==",
+      "path": "naudio.wasapi/3.0.0-preview.9",
+      "hashPath": "naudio.wasapi.3.0.0-preview.9.nupkg.sha512"
+    },
+    "NAudio.WinForms/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vfmm5b5sZFX6FJMeZMX0xP5RV6vItPtmOTJG1i8ZnboC1jdf8TBjGMxfjmxzUbmnz36RxIxh/yCu+AY4u8vKhw==",
+      "path": "naudio.winforms/3.0.0-preview.9",
+      "hashPath": "naudio.winforms.3.0.0-preview.9.nupkg.sha512"
+    },
+    "NAudio.WinMM/3.0.0-preview.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N+qLra3PxiHCyvjmvgJ68Ah7QsfVsuydBqbX4EqG/3C8m2o8s3LNvOeIVHq2Q1hpv9zPmbyen3wbZATokfyi3g==",
+      "path": "naudio.winmm/3.0.0-preview.9",
+      "hashPath": "naudio.winmm.3.0.0-preview.9.nupkg.sha512"
+    },
+    "System.Numerics.Tensors/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hyJB4UlpAi19Xr9AXzu2NuagKC4lPfHObNMEAA0HmqFz2rX7wKgzeYzO/jM/eBHDhnUGFFEjk5cOoJaxqg5J4A==",
+      "path": "system.numerics.tensors/9.0.0",
+      "hashPath": "system.numerics.tensors.9.0.0.nupkg.sha512"
+    }
+  }
+}
